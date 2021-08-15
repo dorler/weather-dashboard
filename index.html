@@ -10,10 +10,11 @@
       integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
       crossorigin="anonymous"
     />
-
+    <link rel="stylesheet" href="style/style.css" />
     <title>Document</title>
   </head>
   <body>
+      <section class="weather-search">
     <form id="weather-form">
       <div class="form-group">
         <label for="city">City Search</label>
@@ -26,12 +27,24 @@
         <small id="cityHelp" class="form-text text-muted"
           >Type in a valid city name Please!</small
         >
-        <input type="submit" value="Submit"/>
+        <input type="submit" value="Submit" />
       </div>
     </form>
+</section>
+
     <ul id="city-btn-container"></ul>
-    <div id="current"></div>
-    <div id="forecast"></div>
+
+    <section>
+      <div id="current">
+        <h4>Current Weather</h4>
+      </div>
+    </section>
+
+    <section>
+      <div id="forecast">
+        <h4>7 Day forecast</h4>
+      </div>
+    </section>
   </body>
   <script type="text/javascript" src="./script.js"></script>
 </html>

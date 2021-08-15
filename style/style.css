@@ -1,0 +1,13 @@
+body {
+  background-color: aquamarine;
+}
+
+.weather-search {
+  display: flex;
+  justify-content: center;
+}
+
+.weather-form {
+  padding: 25px 20px;
+  background-color: white;
+}
